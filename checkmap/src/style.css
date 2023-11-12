@@ -1,0 +1,27 @@
+/* Importe la feuille de style de Bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Salon {
+  max-width: 18rem; /* Ajustement la largeur de la carte  */
+  margin: 10px; /* Ajout une marge autour de la carte */
+  
+  
+}
+/* style pour cardTitle */
+  
+.SalonCardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: blue; /* Couleur du texte, ajustez selon vos préférences */
+}
+
